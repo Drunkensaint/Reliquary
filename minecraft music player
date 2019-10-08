@@ -1,7 +1,7 @@
 while (true) do
   print ("ready")
 	os.pullEvent("redstone")
-		disk.playAdio("front")
+		disk.playAudio("front")
 		print("playing....")
 		os.sleep(1)
 		print ("10")
